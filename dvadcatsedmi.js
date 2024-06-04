@@ -9,9 +9,10 @@ const pizzaPalace = {
       if (!isPizzaAvailable) {
         return `Sorry, there is no pizza named «${pizzaName}»`;
       }
-  
+  else
       return `Order accepted, preparing «${pizzaName}» pizza`;
     },
   };
   console.log(pizzaPalace.order("Big Mike"));
   console.log(pizzaPalace.order("Four meats"));
+  console.log(pizzaPalace.order("Smoked"));
