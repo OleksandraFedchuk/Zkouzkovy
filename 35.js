@@ -16,3 +16,4 @@ fetch("https://jsonplaceholder.typicode.com/todos").then((res) => {console.log(r
     todolist.insertAdjacentHTML("beforeend", listMarkap)
 }).catch((error) => {console.error("Fetch Error:",error);
 })
+
